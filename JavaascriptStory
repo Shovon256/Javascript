@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A spooky story</title>
+
+    <style>
+        body.dark {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+
+    <h1>Basement</h1>
+    <p id="story">I wanted to find my friend but he was hiding in the basement.</p>
+    <button onclick="godark()">Get in the mood</button>
+
+    <div class="textentry">Type your name if you dare : <input type="text" id="name"></div>
+
+    <button onclick="typeAndScream()">Please, please don't click me.</button>
+
+    <button onclick="finishTheStory()">Tell me what happened</button>
+
+    <script>
+
+        function godark() {
+            document.body.className = "dark";
+        }
+
+        function typeAndScream() {
+            var name = document.getElementById("name").value;
+            alert("I told you not to do it" + name);
+        }
+
+        function finishTheStory() {
+            document.getElementById("story").innerHTML = "I found my friend in the basement, but he was not alone. There were shadows everywhere, and I could hear"
+        }
+
+    </script>
+
+</body>
+
+</html>
