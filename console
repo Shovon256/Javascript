@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the world of javascript!</title>
+</head>
+<body>
+   
+    <script>
+        console.log("welcome to the world of javascript! You can make magical things with javascript.");
+        console.log("You can use console.log to print messages to the console and give secret messages.");
+    </script>
+</body>
+</html>
