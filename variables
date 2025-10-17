@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<script>
+    // Program to concatenate multiple sentences
+
+    let sentence1 = prompt("Enter the first sentence: ");
+    let sentence2 = prompt("Enter the second sentence: ");
+    let sentence3 = prompt("Enter the third sentence: ");
+
+    // Concatenate using + operator
+    let conversation = sentence1 + " " + sentence2 + " " + sentence3;
+
+    // Output
+    console.log("Full conversation is:");
+    console.log(conversation);
+
+</script>
+</body>
+
+</html>
