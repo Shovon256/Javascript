@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interesting Animal Infos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 0;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            display: inline-block;
+            /* Changed to inline-block to allow buttons on same line */
+            margin: 10px 5px 20px 5px;
+            /* Adjusted margin for spacing between buttons */
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .hide-button {
+            background-color: #dc3545;
+            /* Red color for hide button */
+        }
+
+        .hide-button:hover {
+            background-color: #c82333;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 30px;
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Interesting Infos About Animals</h2>
+
+        <h3>Tiger</h3>
+        <img src="./images (3).jpg" alt="tiger img">
+        <button onclick="showTigerInfo()">Read more about Tigers</button>
+        <button onclick="hideTigerInfo()" class="hide-button">Hide Info</button>
+        <p id="tiger-info"></p>
+
+        ---
+
+        <h3>Lion</h3>
+        <img src="./images (4).jpg" alt="lion img">
+        <button onclick="showLionInfo()">Read more about Lions</button>
+        <button onclick="hideLionInfo()" class="hide-button">Hide Info</button>
+        <p id="lion-info"></p>
+    </div>
+
+    <script>
+        // Function to show Tiger info
+        function showTigerInfo() {
+            document.getElementById("tiger-info").innerHTML = `The tiger (Panthera tigris) is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recognise only two subspecies, mainland Asian tigers and the island tigers of the Sunda Islands.
+
+Throughout the tiger's range, it inhabits mainly forests, from coniferous and temperate broadleaf and mixed forests in the Russian Far East and Northeast China to tropical and subtropical moist broadleaf forests on the Indian subcontinent and Southeast Asia. The tiger is an apex predator and preys mainly on ungulates, which it takes by ambush. It lives a mostly solitary life and occupies home ranges, defending these from individuals of the same sex. The range of a male tiger overlaps with that of multiple females with whom he mates. Females give birth to usually two or three cubs that stay with their mother for about two years. When becoming independent, they leave their mother's home range and establish their own.
+
+Since the early 20th century, tiger populations have lost at least 93 % of their historic range and are locally extinct in West and Central Asia, in large areas of China and on the islands of Java and Bali.Today, the tiger's range is severely fragmented. It is listed as Endangered on the IUCN Red List of Threatened Species, as its range is thought to have declined by 53% to 68% since the late 1990s. Major threats to tigers are habitat destruction and fragmentation due to deforestation, poaching for fur and the illegal trade of body parts for medicinal purposes. Tigers are also victims of human–wildlife conflict as they attack and prey on livestock in areas where natural prey is scarce. The tiger is legally protected in all range countries. National conservation measures consist of action plans, anti-poaching patrols and schemes for monitoring tiger populations. In several range countries, wildlife corridors have been established and tiger reintroduction is planned.
+
+The tiger is among the most popular of the world's charismatic megafauna. It has been kept in captivity since ancient times and has been trained to perform in circuses and other entertainment shows. The tiger featured prominently in the ancient mythology and folklore of cultures throughout its historic range and has continued to appear in culture worldwide.
+
+            Etymology
+The Old English tigras derives from Old French tigre, from Latin tigris, which was a borrowing from tigris(Ancient Greek: τίγρις).[4] Since ancient times, the word tigris has been suggested to originate from the Armenian or Persian word for 'arrow', which may also be the origin of the name for the river Tigris.[5][6] However, today, the names are thought to be homonyms, and the connection between the tiger and the river is doubted.[6]
+
+            Taxonomy
+In 1758, Carl Linnaeus described the tiger in his work Systema Naturae and gave it the scientific name Felis tigris, as the genus Felis was being used for all cats at the time.His scientific description was based on descriptions by earlier naturalists such as Conrad Gessner and Ulisse Aldrovandi.[2] In 1929, Reginald Innes Pocock placed the species in the genus Panthera using the scientific name Panthera tigris.[7][8]
+
+            Subspecies
+Nine recent tiger subspecies have been proposed between the early 19th and early 21st centuries, namely the Bengal, Malayan, Indochinese, South China, Siberian, Caspian, Javan, Bali and Sumatran tigers.[9][10] The validity of several tiger subspecies was questioned in 1999 as most putative subspecies were distinguished on the basis of fur length and colouration, striping patterns and body size of specimens in natural history museum collections that are not necessarily representative for the entire population.It was proposed to recognise only two tiger subspecies as valid, namely P.t.tigris in mainland Asia and the smaller P.t.sondaica in the Greater Sunda Islands.[11]
+
+This two - subspecies proposal was reaffirmed in 2015 through a comprehensive analysis of morphological, ecological and mitochondrial DNA(mtDNA) traits of all putative tiger subspecies.[10] In 2017, the Cat Classification Task Force of the IUCN Cat Specialist Group revised felid taxonomy in accordance with the 2015 two - subspecies proposal and recognised only P.t.tigris and P.t.sondaica.[12] Results of a 2018 whole - genome sequencing study of 32 samples from the six living putative subspecies—the Bengal, Malayan, Indochinese, South China, Siberian and Sumatran tiger—found them to be distinct and separate clades.[13] These results were corroborated in 2021 and 2023.[14][15] A 2023 study found validity for all nine recent subspecies.[16] The Cat Specialist Group states that "Given the varied interpretations of data, the [subspecific] taxonomy of this species is currently under review by the IUCN SSC Cat Specialist Group."[17]
+
+The following tables are based on the classification of the tiger as of 2005, [9] and also reflect the classification recognised by the Cat Classification Task Force in 2017`;
+        }
+
+        // Function to hide Tiger info
+        function hideTigerInfo() {
+            document.getElementById("tiger-info").innerHTML = "";
+        }
+
+        // Function to show Lion info
+        function showLionInfo() {
+            document.getElementById("lion-info").innerHTML = `The lion (Panthera leo) is a large cat of the genus Panthera, native to Sub-Saharan Africa and India. It has a muscular, broad-chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip of its tail. It is sexually dimorphic; adult male lions are larger than females and have a prominent mane. It is a social species, forming groups called prides. A lion's pride consists of a few adult males, related females, and cubs. Groups of female lions usually hunt together, preying mostly on medium-sized and large ungulates. The lion is an apex and keystone predator.
+
+The lion inhabits grasslands, savannahs, and shrublands.It is usually more diurnal than other wild cats, but when persecuted, it adapts to being active at night and at twilight.During the Neolithic period, the lion ranged throughout Africa and Eurasia, from Southeast Europe to India, but it has been reduced to fragmented populations in sub - Saharan Africa and one population in western India.It has been listed as Vulnerable on the IUCN Red List since 1996 because populations in African countries have declined by about 43 % since the early 1990s.Lion populations are untenable outside designated protected areas.Although the cause of the decline is not fully understood, habitat loss and conflicts with humans are the greatest causes for concern.
+
+One of the most widely recognised animal symbols in human culture, the lion has been extensively depicted in sculptures and paintings, on national flags, and in literature and films.Lions have been kept in menageries since the time of the Roman Empire and have been a key species sought for exhibition in zoological gardens across the world since the late 18th century.Cultural depictions of lions have occurred worldwide, particularly as a symbol of power and royalty.
+
+            Etymology
+The English word lion is derived via Anglo - Norman liun from Latin leōnem(nominative: leō), which in turn was a borrowing from Ancient Greek λέων léōn.The Hebrew word לָבִיא lavi may also be related.[4] The generic name Panthera is traceable to the classical Latin word 'panthēra' and the ancient Greek word πάνθηρ 'panther'.[5]
+
+            Taxonomy
+            Panthera 
+Snow leopard
+
+            Tiger
+
+            Jaguar
+
+            Leopard
+
+            Lion 
+
+Phylogeny of the genus Panthera based on a 2016 nuclear DNA study[6]
+Felis leo was the scientific name used by Carl Linnaeus in 1758, who described the lion in his work Systema Naturae.[3] The genus name Panthera was coined by Lorenz Oken in 1816.[7] Between the mid - 18th and mid - 20th centuries, 26 lion specimens were described and proposed as subspecies, of which 11 were recognised as valid in 2005.[1] They were distinguished mostly by the size and colour of their manes and skins.[8]
+
+            Subspecies
+In the 19th and 20th centuries, several lion type specimens were described and proposed as subspecies, with about a dozen recognised as valid taxa until 2017.[1] Between 2008 and 2016, IUCN Red List assessors used only two subspecific names: P.l.leo for African lion populations, and P.l.persica for the Asiatic lion population.[2][9][10] In 2017, the Cat Classification Task Force of the Cat Specialist Group revised lion taxonomy, and recognises two subspecies based on results of several phylogeographic studies on lion evolution, namely: [11]
+
+            P.l.leo(Linnaeus, 1758) − the nominate lion subspecies includes the Asiatic lion, the regionally extinct Barbary lion, and lion populations in West and northern parts of Central Africa.[11] Synonyms include P.l.persica(Meyer, 1826), P.l.senegalensis(Meyer, 1826), P.l.kamptzi(Matschie, 1900), and P.l.azandica(Allen, 1924).[1] It has been called 'northern lion' and 'northern subspecies'.[12][13]
+            P.l.melanochaita(Smith, 1842) − includes the extinct Cape lion and lion populations in East and Southern African regions.[11] Synonyms include P.l.somaliensis(Noack 1891), P.l.massaica(Neumann, 1900), P.l.sabakiensis(Lönnberg, 1910), P.l.bleyenberghi(Lönnberg, 1914), P.l.roosevelti(Heller, 1914), P.l.nyanzae(Heller, 1914), P.l.hollisteri(Allen, 1924), P.l.krugeri(Roberts, 1929), P.l.vernayi(Roberts, 1948), and P.l.webbiensis(Zukowsky, 1964).[1][8] It has been referred to as 'southern subspecies' and 'southern lion'.[13]
+            However, there seems to be some degree of overlap between both groups in northern Central Africa.DNA analysis from a more recent study indicates that Central African lions are derived from both northern and southern lions, as they cluster with P.leo leo in mtDNA - based phylogenies whereas their genomic DNA indicates a closer relationship with P.leo melanochaita.[14]
+
+Lion samples from some parts of the Ethiopian Highlands cluster genetically with those from Cameroon and Chad, while lions from other areas of Ethiopia cluster with samples from East Africa.Researchers, therefore, assume Ethiopia is a contact zone between the two subspecies.[15] Genome - wide data of a wild - born historical lion sample from Sudan showed that it clustered with P.l.leo in mtDNA - based phylogenies, but with a high affinity to P.l.melanochaita; this suggested that the taxonomic position of lions in Central Africa may require revision.[16]
+
+Fossil records
+Other lion subspecies or sister species to the modern lion existed in prehistoric times: [17]
+
+            P.fossilis was larger than the modern lion and lived in the Middle Pleistocene.Bone fragments were excavated in caves in the United Kingdom, Germany, Italy and Czech Republic.[18][19]
+            P.spelaea, or the cave lion, lived in Eurasia and Beringia during the Late Pleistocene.It became extinct due to climate warming or human expansion latest by 11, 900 years ago.[20] Bone fragments excavated in European, North Asian, Canadian and Alaskan caves indicate that it ranged from Europe across Siberia into western Alaska.[21] It likely derived from P.fossilis, [22] and was genetically isolated and highly distinct from the modern lion in Africa and Eurasia.[23][22] It is depicted in Paleolithic cave paintings, ivory carvings, and clay busts.[24]
+            P.atrox, or the American lion, ranged in the Americas from Canada to possibly Patagonia during the Late Pleistocene.[25] It diverged from the cave lion around 165,000 years ago.[26] A fossil from Edmonton dates to 11, 355 ± 55 years ago.[27]
+            Additionally, in 1938 paleontologist Paulus Deraniyagala named a subspecies P.l.sinhaleyus based on two fossils, a lower left carnassial and a damaged right lower canine tooth, both excavated from deposits in Kuruwita, Sri Lanka.He called it "narrower and more elongate" but otherwise failed to distinguish P.l.sinhaleyus from other lion subspecies.A subsequent study of felid fossils from the Kuruwita deposits in 2005 described the fossils in further detail but only assigned to them to P.leo.[28][29]
+
+            Evolution
+
+Skull of an American lion on display at the National Museum of Natural History
+
+red Panthera spelaea
+blue Panthera atrox
+green Panthera leo
+
+Maximal range of the modern lion
+and its prehistoric relatives
+            in the late Pleistocene
+The Panthera lineage is estimated to have genetically diverged from the common ancestor of the Felidae around 10.8 million years ago million years ago.[30] Hybridisation between lion and snow leopard ancestors possibly continued until about 2.1 million years ago.[6] The lion - leopard clade was distributed in the Asian and African Palearctic since at least the early Pliocene.[31] The earliest fossils recognisable as lions were found at Olduvai Gorge in Tanzania and are estimated to be up to 2 million years old.[32]
+
+Estimates for the divergence time of the modern and cave lion lineages range from 529,000 to 392,000 years ago based on mutation rate per generation time of the modern lion.There is no evidence for gene flow between the two lineages, indicating that they did not share the same geographic area.[16] The Eurasian and American cave lions became extinct at the end of the last glacial period without mitochondrial descendants on other continents.[23][33][34] The modern lion was probably widely distributed in Africa during the Middle Pleistocene and started to diverge in sub - Saharan Africa during the Late Pleistocene.Lion populations in East and Southern Africa became separated from populations in West and North Africa when the equatorial rainforest expanded 183, 500 to 81, 800 years ago.[35] They shared a common ancestor probably between 98,000 and 52,000 years ago.[16] Due to the expansion of the Sahara between 83, 100 and 26, 600 years ago, lion populations in West and North Africa became separated.As the rainforest decreased and thus gave rise to more open habitats, lions moved from West to Central Africa.Lions from North Africa dispersed to southern Europe and Asia between 38, 800 and 8, 300 years ago.[35]
+
+Extinction of lions in southern Europe, North Africa and the Middle East interrupted gene flow between lion populations in Asia and Africa.Genetic evidence revealed numerous mutations in lion samples from East and Southern Africa, which indicates that this group has a longer evolutionary history than genetically less diverse lion samples from Asia and West and Central Africa.[36] A whole genome - wide sequence of lion samples showed that samples from West Africa shared alleles with samples from Southern Africa, and samples from Central Africa shared alleles with samples from Asia.This phenomenon indicates that Central Africa was a melting pot of lion populations after they had become isolated, possibly migrating through corridors in the Nile Basin during the early Holocene.[16]
+
+            Hybrids
+Further information: Panthera hybrid
+In zoos, lions have been bred with tigers to create hybrids for the curiosity of visitors or for scientific purpose.[37][38] The liger is bigger than a lion and a tiger, whereas most tigons are relatively small compared to their parents because of reciprocal gene effects.[39][40] The leopon is a hybrid between a lion and leopard.[41]
+
+            Description
+
+A tuft at the end of the tail is a distinct characteristic of the lion.
+
+            Skeleton
+The lion is a muscular, broad - chested cat with a short, rounded head, a reduced neck, and round ears; males have broader heads.The fur varies in colour from light buff to silvery grey, yellowish red, and dark brown.The colours of the underparts are generally lighter.A new- born lion has dark spots, which fade as the cub reaches adulthood, although faint spots may still be seen on the legs and underparts.[42][43] The tail of all lions ends in a dark, hairy tuft that, in some lions, conceals an approximately 5 mm(0.20 in) - long, hard "spine" or "spur" composed of dermal papillae.[44] The functions of the spur are unknown.The tuft is absent at birth, develops at around 5 + 1⁄2 months of age and is readily identifiable at the age of seven months.[45]
+
+Its skull is very similar to that of the tiger, although the frontal region is usually more depressed and flattened and has a slightly shorter postorbital region and broader nasal openings than those of the tiger.Due to the amount of skull variation in the two species, usually only the structure of the lower jaw can be used as a reliable indicator of species.[46][47]
+
+The skeletal muscles of the lion make up 58.8 % of its body weight and represent the highest percentage of muscles among mammals.[48][49] The lion has a high concentration of fast twitch muscle fibres, giving them quick bursts of speed but less stamina.[50][51].`;
+        }
+
+        // Function to hide Lion info
+        function hideLionInfo() {
+            document.getElementById("lion-info").innerHTML = "";
+        }
+    </script>
+</body>
+
+</html>
